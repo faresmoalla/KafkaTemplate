@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/kafka")
+
 public class KafkaController {
 	
 	
 @Autowired
 KafkaTemplate<String, String> kafkaTemplate;
 
-private static final String topic = "New Topic";
+private static final String topic = "fares-topic";
 
 @GetMapping("/publish/{message}")
 public String publishMessage(@PathVariable("message")String  message) {
