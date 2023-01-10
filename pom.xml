@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tn.examen.spring</groupId>
-	<artifactId>KafkaTemplate</artifactId>
+	<artifactId>Kafka</artifactId>
 	<version>1.0</version>
-	<name>MohamedAli</name>
-	<description>Revision</description>
+	<name>Kafka</name>
+	<description>Kafka</description>
 	<properties>
 			<java.version>1.8</java.version>
 	</properties>
