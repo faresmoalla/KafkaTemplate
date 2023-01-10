@@ -62,7 +62,7 @@ public class ExamenService {
 		
 	}
 	
-	@Scheduled(fixedRate = 1000)
+	//@Scheduled(fixedRate = 1000)
 	public void calculCout() {
 	List<Evenement> listevents= evenementRepo.findAll();
 	float somme =0;
