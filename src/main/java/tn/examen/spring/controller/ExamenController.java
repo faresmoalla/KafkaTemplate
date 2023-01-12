@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.web.bind.annotation.*;
 
-import io.swagger.annotations.ApiOperation;
+
 
 import tn.examen.spring.entities.Evenement;
 import tn.examen.spring.entities.Logistique;
